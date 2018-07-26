@@ -23,6 +23,9 @@ install:
   - npm install
   - npm install hexo-deployer-git --save
 
+before_script:
+  - npm install -g mocha
+  - git clone --branch master https://github.com/content-eco/content-eco.github.io.git public
 # 执行清缓存，生成网页操作
 script:
   - rm -rf ./.deploy_git/ 
