@@ -36,5 +36,5 @@ after_script:
   - git config user.email "herycc2009@126.com"
   - git add .
   - git commit -m "Update"
-  - git push --force --quiet "https://${gh_token}@github.com/content-eco/content-eco.github.io.git" master:master
+  - git push --force --quiet "https://${GH_TOKEN}@github.com/content-eco/content-eco.github.io.git" master:master
 # End: Build LifeCycle

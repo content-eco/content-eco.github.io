@@ -92,7 +92,7 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
  type:  git
- repository:  https://gh_token@github.com/content-eco/content-eco.github.io.git
+ repository:  https://GH_TOKEN@github.com/content-eco/content-eco.github.io.git
  branch:  master
 
 
